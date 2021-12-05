@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.calendarContainer {
+  /* margin-top: 10px; */
+  background: #000000;
+  height: 100vh;
+}
+.react-calendar {
+  border: none;
+  background: transparent;
+}
+.heading {
+  /* margin-top: -1em; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nextbtn {
+  background-color: #eeeeee;
+  font-family: "Montserrat";
+  color: #000000;
+  font-size: 19px;
+  margin: 20px auto;
+  font-weight: bold;
+  /* font-family: "Courier New", Courier, monospace; */
+  padding: 10px 45px;
+  border-radius: 5px;
+  margin: 20px auto;
+  cursor: pointer;
+  border: none;
+}
+.RangeExample {
+  /* margin-right: 400px;
+  margin-left: 400px; */
+}
+.link {
+  background-color: #eeeeee;
+  font-family: "Montserrat";
+  color: #000000;
+  margin: 10px auto;
+  font-size: 19px;
+  font-weight: bold;
+  /* font-family: "Courier New", Courier, monospace; */
+  padding: 10px 45px;
+  border-radius: 5px;
+  margin: 0 20px;
+  cursor: pointer;
+  border: none;
+}
+.container {
+  margin-top: 200px;
+  background-color: #d34949;
+  /* border-radius: 30px; */
+  /* border-color: rgb(216, 2, 134); */
+  /* box-shadow: 0 15px 15px 0px palevioletred; */
+  padding: 30px;
+  /* opacity: 0.5; */
+  margin: auto;
+  width: 50%;
+}
+
+.dayPicker {
+  background-color: #d34949;
+}
+.Agreebtn {
+  margin-right: 15px;
+  color: #bd4b4b;
+  border: 2px solid #bd4b4b;
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #bd4b4b;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  border-radius: 50px;
+}
+.Disagreebtn {
+  margin-right: 40px;
+  color: #bd4b4b;
+  border: 2px solid #bd4b4b;
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #bd4b4b;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  border-radius: 50px;
+}
+.h3 {
+  color: #fff;
+  padding-top: 5px;
+  font-size: 35px;
+  line-height: 2rem;
+  text-decoration: none;
+  font-family: "Montserrat";
+  letter-spacing: 1.5;
+}
+.Agreebtn:hover {
+  box-shadow: inset 0 0 0 50px #bd4b4b;
+  color: black;
+}
+.Disagreebtn:hover {
+  box-shadow: inset 0 0 0 50px #bd4b4b;
+  color: black;
+}
+
+.calendarContainer {
+  min-height: 90vh;
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 2rem 0;
+  }
+}
+
+/* Responsive calender */
+@media (max-width: 360px) {
+  .nextbtn {
+    padding: 8px;
+  }
+
+  .link {
+    padding: 8px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+.intro {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: rgb(253, 207, 246);
+  margin-top: 60px;
+  font-size: 17px;
+  justify-content: center;
+}
+.intro h1 {
+  padding: 40px;
+}
+
+.container2 {
+  background-color: rgb(247, 175, 217);
+  border-radius: 30px;
+  border-color: rgb(216, 2, 134);
+  box-shadow: 0 15px 15px 0px palevioletred;
+  padding: 30px;
+  opacity: 0.9;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  /* font-family: "Montserrat"; */
+  position: relative;
+  display: inline-block;
+  padding: 15px 25px;
+  background: rgb(235, 91, 158);
+  color: white;
+  border-radius: 40px;
+  text-decoration: none;
+  margin-top: 10px;
+  width: 330px;
+}
+.btn:hover {
+  color: #000;
+}
+.card2 {
+  justify-content: center;
+  width: 430px;
+  height: 150px;
+  background: #ee9ca7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin: 20px;
+  margin-left: 270px;
+  box-shadow: 0 15px 25px black;
+  transition: 0.5s;
+  transition: transform 0.3s;
+}
+.card2:hover {
+  transform: scale(1.05);
+}
+
+.timer_container {
+  background-image: url("https://www.nndym.org/wp-content/uploads/2020/07/unname.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  width: 100vw;
+  height: 100vw;
+  margin-top: -900px;
+}
+.timer {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 7em;
+  padding-top: 5em;
+  width: 100%;
+  height: 100%;
+  margin-top: 0.5em;
+}
+.timer div:first-child {
+  text-align: center;
+}
+
+.h2 {
+  font-size: 68px;
+  margin-top: -650px;
+  margin-left: -300px;
+}
+.timer div:last-child {
+  border: 2px solid white;
+  border-radius: 3px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 9em;
+  margin-left: -800px;
+  padding: 1em;
+  text-align: center;
+  width: 500px;
+}
+.section {
+  font-size: 29px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 0.5em;
+  margin-left: 170px;
+}
+
+.timer div:last-child span {
+  font-size: 3em;
+}

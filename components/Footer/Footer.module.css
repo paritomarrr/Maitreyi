@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+.footer {
+  margin-top: -10;
+  height: 30px;
+  width: 100%;
+  background: #bd4d4d;
+  color: #000;
+  position: relative;
+  scroll-behavior: smooth;
+}
+.head {
+  font-family: "Montserrat";
+  font-size: 20px;
+  text-align: center;
+}

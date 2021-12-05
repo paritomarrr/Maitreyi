@@ -1,0 +1,30 @@
+.btn {
+  /* background-color: #010103;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 7px;
+  border: solid #60a3bc 1.5px;
+  width: 128px;
+  height: 40px;
+  border-radius: 18px;
+  font-size: 15px;
+  text-decoration: none;
+  box-shadow: 0 0 10px 5px #60a3bc; */
+  display: block;
+  background: #bd4b4b;
+  border-radius: 5px 5px 0px 0px;
+  width: 200px;
+  text-transform: uppercase;
+  border: 1px solid;
+  padding: 10px 30px;
+  color: #eeee;
+  /* text-transform: uppercase; */
+  font-family: "Montserrat";
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #171717;
+  box-shadow: none;
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playball&family=Redressed&family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
+
+.container {
+  padding-top: 150px;
+  background-color: #000000;
+  /* height: 100vh; */
+}
+.imagee {
+  height: 350px;
+}
+.background {
+  margin: 50px 0;
+  background-image: url("./images/women.jpg");
+  height: 100%;
+  background-size: cover;
+}
+.title span {
+  color: #efb7b7;
+  padding-right: 13px;
+}
+.title {
+  font-family: "Montserrat", cursive;
+  font-size: 4em;
+  color: #eeeeee;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.heading {
+  color: #eeeeee;
+  /* font-family: "Special Elite", cursive; */
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  display: flex;
+  text-align: center !important;
+  flex-direction: row;
+  justify-content: center;
+}
+.periodFlex {
+  display: flex;
+  justify-content: space-evenly;
+}
+/******************** Button ********************/
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin: 70px auto;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;
+  padding: 20px;
+  border: none;
+  border: 1px solid #fff;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-transform: uppercase !important;
+  letter-spacing: 2px;
+  color: #fff;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden !important;
+  /* margin-bottom: 50px; */
+  /* -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; */
+  z-index: 2;
+}
+.button:hover {
+  border: 1px solid #d34949;
+  color: #ffffff !important;
+  font-weight: 1500;
+}
+/* .button::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  background: transparent;
+  position: absolute;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  left: -10%;
+  opacity: 1;
+  top: 0;
+  z-index: -12;
+  -moz-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  box-shadow: 2px 0px 14px rgba(0, 0, 0, 0.6);
+} */
+/* .button::after {
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  background: #80ffd3;
+  position: absolute;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  left: -10%;
+  opacity: 0;
+  top: 0;
+  z-index: -15;
+  -webkit-transition: all 0.94s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  -moz-transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  -o-transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  box-shadow: 2px 0px 14px rgba(0, 0, 0, 0.6);
+} */
+.button:hover::before,
+.button:hover::before {
+  opacity: 1;
+  width: 116%;
+}
+.button:hover::after,
+.button:hover::after {
+  opacity: 1;
+  width: 120%;
+}
+
+/* responsive css */
+@media (max-width: 800px) {
+  .title {
+    font-size: 2em;
+  }
+  .imagee {
+    height: 200px;
+  }
+  .periodFlex {
+    flex-direction: column;
+  }
+}
