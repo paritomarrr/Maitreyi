@@ -1,0 +1,10 @@
+import pandas as pd
+
+# Create a DataFrame with sample menstrual cycle data
+data = {'cycle_length': 28,
+        'period_length': 5,
+        'days_since_last_period': 23}
+df = pd.DataFrame(data)
+
+# Save the DataFrame to a CSV file
+df.to_csv('backend/menstrual_cycle_data.csv', index=False)

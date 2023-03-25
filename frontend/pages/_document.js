@@ -8,7 +8,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <title>Periodo App</title>
+        <title>Maitreyi</title>
         <Head />
         <body>
           <Main />

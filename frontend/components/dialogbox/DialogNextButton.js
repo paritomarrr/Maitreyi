@@ -29,7 +29,7 @@ export default function DialogNextButton() {
       <button
         className={style.nextbtn}
         variant="contained"
-        onClick={handleClickOpen}
+        onClick={handleClickOpen} 
       >
         Next
       </button>
